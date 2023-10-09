@@ -1,4 +1,3 @@
-// 1986
 #include "pch.h"
 
 int solution(int num)
