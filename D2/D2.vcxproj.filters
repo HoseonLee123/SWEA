@@ -24,6 +24,9 @@
     <ClCompile Include="1859_백만 장자 프로젝트.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1926_간단한 369게임.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
