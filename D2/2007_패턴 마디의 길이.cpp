@@ -2,16 +2,22 @@
 
 int main()
 {
+	ifstream inputFile;
+	inputFile.open("./input/2007_input.txt");
+
+	if (!inputFile.is_open())
+		cout << "Error! Failed to open the file!" << endl;
+
 	int testCase;
 	int T;
-	cin >> T;
+	inputFile >> T;
 
 	for (testCase = 1; testCase <= T; ++testCase)
 	{
 		string input;
 		string target;
 
-		cin >> input;
+		inputFile >> input;
 		target.push_back(input[0]);
 
 		for (int i = 1; i < input.size(); i++)

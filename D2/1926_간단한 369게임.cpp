@@ -3,8 +3,14 @@
 
 int main()
 {
+	ifstream inputFile;
+	inputFile.open("./input/1926_input.txt");
+
+	if (!inputFile.is_open())
+		cout << "Error! Failed to open the file!" << endl;
+
 	int number;
-	cin >> number;
+	inputFile >> number;
 
 	for (int i = 1; i <= number; i++)
 	{

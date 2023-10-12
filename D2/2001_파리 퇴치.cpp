@@ -2,16 +2,22 @@
 
 int main()
 {
+	ifstream inputFile;
+	inputFile.open("./input/2001_input.txt");
+
+	if (!inputFile.is_open())
+		cout << "Error! Failed to open the file!" << endl;
+
 	int testCase;
 	int T;
-	cin >> T;
+	inputFile >> T;
 
 	for (testCase = 1; testCase <= T; ++testCase)
 	{
 		int sizeOfCluster;
 		int sizeOfSwatter;
-		cin >> sizeOfCluster; // 5 ~ 15
-		cin >> sizeOfSwatter; // 2 ~ sizeOfCluster
+		inputFile >> sizeOfCluster; // 5 ~ 15
+		inputFile >> sizeOfSwatter; // 2 ~ sizeOfCluster
 
 		// Create files.
 		vector<vector<int>> files(sizeOfCluster, vector<int>(sizeOfCluster, 0));
@@ -19,7 +25,7 @@ int main()
 		{
 			for (int j = 0; j < files[i].size(); j++)
 			{
-				cin >> files[i][j]; // <= 30
+				inputFile >> files[i][j]; // <= 30
 			}
 		}
 
