@@ -175,6 +175,12 @@
   <ItemGroup>
     <ClInclude Include="pch.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="input\1926_input.txt" />
+    <Text Include="input\1986_input.txt" />
+    <Text Include="input\2001_input.txt" />
+    <Text Include="input\2007_input.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

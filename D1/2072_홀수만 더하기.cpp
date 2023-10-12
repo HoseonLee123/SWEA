@@ -3,10 +3,16 @@
 
 int main()
 {
+	ifstream inputFile;
+	inputFile.open("./input/2072_input.txt");
+
+	if (!inputFile.is_open())
+		cout << "Error! Failed to open the file!" << endl;
+
 	int test_case;
 	int T;
 
-	cin >> T;
+	inputFile >> T;
 
 	for (test_case = 1; test_case <= T; ++test_case)
 	{
@@ -14,7 +20,7 @@ int main()
 		for (int i = 0; i < 10; i++)
 		{
 			int num;
-			cin >> num;
+			inputFile >> num;
 			numbers.push_back(num);
 		}
 

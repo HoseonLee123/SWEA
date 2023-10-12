@@ -27,10 +27,27 @@
     <ClCompile Include="2070_큰 놈, 작은 놈, 같은 놈.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2068_최대수 구하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input\2068_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input\2070_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input\2071_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input\2072_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
   </ItemGroup>
 </Project>
