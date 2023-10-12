@@ -18,9 +18,6 @@
     <ClCompile Include="1986_지그재그 숫자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>헤더 파일</Filter>
-    </ClCompile>
     <ClCompile Include="1859_백만 장자 프로젝트.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -29,6 +26,12 @@
     </ClCompile>
     <ClCompile Include="2007_패턴 마디의 길이.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2001_파리 퇴치.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>헤더 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
