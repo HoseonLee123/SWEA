@@ -52,5 +52,8 @@
     <Text Include="input\2007_input.txt">
       <Filter>리소스 파일</Filter>
     </Text>
+    <Text Include="input\1859_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
   </ItemGroup>
 </Project>
