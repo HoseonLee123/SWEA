@@ -39,6 +39,9 @@
     <ClCompile Include="2056_연월일 달력.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2047_신문 헤드라인.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -65,6 +68,9 @@
       <Filter>리소스 파일</Filter>
     </Text>
     <Text Include="input\2056_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input\2047_input.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
