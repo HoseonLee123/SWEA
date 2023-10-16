@@ -195,7 +195,13 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1989_초심자의 회문 검사.cpp" />
+    <ClCompile Include="1989_초심자의 회문 검사.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1984_중간 평균값 구하기.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -204,6 +210,7 @@
     <Text Include="input\1859_input.txt" />
     <Text Include="input\1926_input.txt" />
     <Text Include="input\1983_input.txt" />
+    <Text Include="input\1984_input.txt" />
     <Text Include="input\1986_input.txt" />
     <Text Include="input\1989_input.txt" />
     <Text Include="input\2001_input.txt" />
