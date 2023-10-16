@@ -36,6 +36,15 @@
     <ClCompile Include="2005_파스칼의 삼각형.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1983_조교의 성적 매기기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1983_조교의 성적 매기기2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1983_조교의 성적 매기기3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -59,6 +68,9 @@
       <Filter>리소스 파일</Filter>
     </Text>
     <Text Include="input\2005_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input\1983_input.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
