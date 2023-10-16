@@ -45,6 +45,9 @@
     <ClCompile Include="1983_조교의 성적 매기기3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1989_초심자의 회문 검사.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -71,6 +74,9 @@
       <Filter>리소스 파일</Filter>
     </Text>
     <Text Include="input\1983_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input\1989_input.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
