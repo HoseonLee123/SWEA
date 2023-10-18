@@ -63,6 +63,9 @@
     <ClCompile Include="1976_시각 덧셈.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1961_숫자 배열 회전.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -104,6 +107,9 @@
       <Filter>리소스 파일</Filter>
     </Text>
     <Text Include="input\1976_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input\1961_input.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
