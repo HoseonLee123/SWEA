@@ -57,6 +57,9 @@
     <ClCompile Include="1979_어디에 단어가 들어갈 수 있을까2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1974_스도쿠 검증.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -92,6 +95,9 @@
       <Filter>리소스 파일</Filter>
     </Text>
     <Text Include="input\1979_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input\1974_input.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
