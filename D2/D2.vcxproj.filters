@@ -72,6 +72,9 @@
     <ClCompile Include="1959_두 개의 숫자열.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1970_쉬운 거스름돈.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -122,6 +125,9 @@
       <Filter>리소스 파일</Filter>
     </Text>
     <Text Include="input\1959_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input\1970_input.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
