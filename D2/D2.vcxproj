@@ -249,7 +249,13 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1970_쉬운 거스름돈.cpp" />
+    <ClCompile Include="1970_쉬운 거스름돈.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1954_달팽이 숫자.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -257,6 +263,7 @@
   <ItemGroup>
     <Text Include="input\1859_input.txt" />
     <Text Include="input\1926_input.txt" />
+    <Text Include="input\1954_input.txt" />
     <Text Include="input\1959_input.txt" />
     <Text Include="input\1961_input.txt" />
     <Text Include="input\1966_input.txt" />
