@@ -267,7 +267,13 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1946_간단한 압축 풀기.cpp" />
+    <ClCompile Include="1946_간단한 압축 풀기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1945_간단한 소인수분해.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -275,6 +281,7 @@
   <ItemGroup>
     <Text Include="input\1859_input.txt" />
     <Text Include="input\1926_input.txt" />
+    <Text Include="input\1945_input.txt" />
     <Text Include="input\1946_input.txt" />
     <Text Include="input\1948_input.txt" />
     <Text Include="input\1954_input.txt" />

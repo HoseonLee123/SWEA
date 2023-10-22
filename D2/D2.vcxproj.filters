@@ -84,6 +84,9 @@
     <ClCompile Include="1946_간단한 압축 풀기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1945_간단한 소인수분해.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -146,6 +149,9 @@
       <Filter>리소스 파일</Filter>
     </Text>
     <Text Include="input\1946_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input\1945_input.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
