@@ -99,6 +99,9 @@
     <ClCompile Include="1285_아름이의 돌 던지기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1284_수도 요금 경쟁.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -176,6 +179,9 @@
       <Filter>리소스 파일</Filter>
     </Text>
     <Text Include="input\1285_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input\1284_input.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
