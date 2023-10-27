@@ -26,9 +26,15 @@
     <ClCompile Include="18662_등차수열 만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="16800_구구단 걷기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input\18662_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input\16800_input.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
