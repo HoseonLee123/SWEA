@@ -35,6 +35,9 @@
     <ClCompile Include="16910_원 안의 점.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15758_무한 문자열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input\18662_input.txt">
@@ -47,6 +50,9 @@
       <Filter>리소스 파일</Filter>
     </Text>
     <Text Include="input\16910_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input\15758_input.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
