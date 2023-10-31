@@ -38,6 +38,9 @@
     <ClCompile Include="15758_무한 문자열.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15230_알파벳 공부.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input\18662_input.txt">
@@ -53,6 +56,9 @@
       <Filter>리소스 파일</Filter>
     </Text>
     <Text Include="input\15758_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input\15230_input.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
