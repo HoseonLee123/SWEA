@@ -174,10 +174,17 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="15230_알파벳 공부.cpp" />
+    <ClCompile Include="15230_알파벳 공부.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="15612_체스판 위의 룩 배치.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input\15230_input.txt" />
+    <Text Include="input\15612_input.txt" />
     <Text Include="input\15758_input.txt" />
     <Text Include="input\16800_input.txt" />
     <Text Include="input\16910_input.txt" />
