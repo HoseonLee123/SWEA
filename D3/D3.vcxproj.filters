@@ -47,6 +47,12 @@
     <ClCompile Include="14692_통나무 자르기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2805_농작물 수확하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2805_농작물 수확하기2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input\18662_input.txt">
@@ -71,6 +77,9 @@
       <Filter>리소스 파일</Filter>
     </Text>
     <Text Include="input\14692_input.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="input\2805_input.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
